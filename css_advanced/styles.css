@@ -294,3 +294,58 @@ blockquote {
     color: #b066ff;
     text-align: right;
 }
+
+.membership-section {
+    background-color: #1c1e22;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.membership-section h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.membership-section .highlight {
+    color: #b066ff;
+}
+
+.membership-features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.feature {
+    flex: 1 1 calc(25% - 20px);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 0.9em;
+    color: #d1d1d1;
+}
+
+.register-button {
+    background-color: #b066ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
