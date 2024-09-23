@@ -6,7 +6,7 @@ Headphone is a responsive and stylish webpage designed to display information ab
 
 ---
 
-##Features
+## Features
 
 - **Responsive Design**: The webpage switches to a mobile-friendly layout when the screen width is 480px or less.
 
@@ -18,7 +18,7 @@ Headphone is a responsive and stylish webpage designed to display information ab
 
 ---
 
-##Technologies Used
+## Technologies Used
 
 - **HTML5** for structuring content.
 
@@ -35,14 +35,6 @@ The project switches to mobile view when the screen width is `480px` or less. Th
 ## Resources
 
 - [Figma for design reference by Nicolas Philippot, UI/UX](https://www.figma.com/design/TwFqqWGYvNYvxZxhdWXv4H/Holberton-School---Headphone-company?node-id=0-1&node-type=canvas&t=LoO57uaF2oZZoi6y-0)
-
----
-
-## Screenshots
-
-### Desktop view, mobile view, and screen width of `480px` or less
-
-![Headphones](c:\Users\HI\Images\Desktop-view.jpg "Headphones Project")
 
 ---
 
