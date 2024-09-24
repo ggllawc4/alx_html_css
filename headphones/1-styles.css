@@ -144,8 +144,7 @@ nav ul li a:hover, nav ul li a:active {
     border: 1px solid #ff6565;
     border-radius: 2em;
     background-color: #ff6565;
-    color: white;
-    font-style: bold;
+    color: #333;
 }
 
 .lorem-about .cta:hover, .lorem-about .cta:active {
@@ -159,9 +158,70 @@ nav ul li a:hover, nav ul li a:active {
     line-height: 1.5;
 }
 
+main {
+    background-color: white;
+}
+
+.we-dos {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.we-do {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.we-do-note {
+    margin-top: 2rem;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+}
+
+.you-listen {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.listen {
+    text-align: center;
+}
+
+.listen i {
+    font-size: 300%;
+    color: #ff6565;
+}
+
+.listen h3 {
+    margin: 0.8em;
+    color: black;
+    font-weight: bold;
+}
+
+.listen p {
+    font-size: 1em;
+
+}
+
+@media (max-width: 768px) {
+    .you-listen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .you-listen .boxs {
+        margin-top: 1.5em;
+    }
+}
+
 @media (max-width: 480px) {
     nav {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .hamburger {
@@ -203,5 +263,15 @@ nav ul li a:hover, nav ul li a:active {
 
     #menu-toggle:checked + .hamburger + .navigate {
         display: flex;
+    }
+
+    .you-listen {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .you-listen .box {
+        margin-top: 1.5em;
     }
 }
