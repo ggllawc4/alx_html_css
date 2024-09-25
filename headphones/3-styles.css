@@ -1,0 +1,398 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Source Code Pro", monospace;
+    background-image: url(../../AppData/Local/Temp/0ba82f7d-eadf-4fcf-a7c8-73e7675926f5_d1597894d79386c83b9b.zip.6f5/images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3em;
+    background-position: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navigate li {
+    margin-left: 30px;
+}
+
+.navigate a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 3px 0;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+nav ul li a:hover, nav ul li a:active {
+    color: #ff6565
+}
+
+.lorem-about {
+    text-align: center;
+    margin-top: 18em;
+    color:white;
+}
+
+.lorem-about h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lorem-about p {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+.lorem-about .cta {
+    margin-top: 4em;
+    padding: 1.3em;
+    border: 1px solid #ff6565;
+    border-radius: 2em;
+    background-color: #ff6565;
+    color: white;
+    font-weight: bold;
+}
+
+.lorem-about .cta:hover, .lorem-about .cta:active {
+    opacity: 0.9;
+}
+
+.info {
+    margin-top: 6em;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+main {
+    background-color: white;
+}
+
+.we-dos {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.we-do {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.we-do-note {
+    margin-top: 2rem;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+}
+
+.you-listen {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.listen {
+    text-align: center;
+}
+
+.listen i {
+    font-size: 300%;
+    color: #ff6565;
+}
+
+.listen h3 {
+    margin: 0.8em;
+    color: black;
+    font-weight: bold;
+}
+
+.listen p {
+    font-size: 1em;
+
+}
+
+.results {
+    font-family: "Source Code Pro", monospace;
+    background-image: url(../../AppData/Local/Temp/4742014a-b020-4121-af20-4c19e3a22a6f_d1597894d79386c83b9b.zip.a6f/images/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3em;
+}
+
+.result {
+    text-align: center;
+    color: white;
+    padding-top: 5em;
+}
+
+.result h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.result p {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.pentagones {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.pentagone img {
+    width: 70%;
+}
+
+.penta {
+    transform: translateY(-6rem);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.penta h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.penta p {
+    font-size: 0.6rem;
+    margin-top: 2em;
+}
+
+.contact-section {
+    font-family: "Source Code Pro", monospace;
+    margin-top: 4em;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.contact-heading {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.business-form {
+    margin-top: 3em;
+}
+
+.reach-us input {
+    border: none;
+    margin-bottom: 1.5em;
+    border-bottom: 1.5px solid #59565640;
+    outline: none;
+    width: 200px;
+}
+
+.reach-us label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1em;
+    transform: translateX(-80px);
+}
+
+.reach-us .message {
+    padding-left: 65px;
+}
+
+.us .btn {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid #ff6565;
+    border-radius: 2em;
+    background-color: #ff6565;
+    color: white;
+    font-weight: bold;
+}
+
+.us .btn:hover, .us .btn:active {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .you-listen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .you-listen .boxs {
+        margin-top: 1.5em;
+    }
+
+    .pentagone img{
+       width: 50%; 
+    }
+
+    .pentagones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        justify-content: space-evenly;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        left: 20px;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .navigate {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navigate li {
+        margin: 10px 0;
+    }
+
+    #menu-toggle:checked + .hamburger span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    #menu-toggle:checked + .hamburger span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked + .hamburger span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    #menu-toggle:checked + .hamburger + .navigate {
+        display: flex;
+    }
+
+    .you-listen {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .you-listen .box {
+        margin-top: 1.5em;
+    }
+
+    .pentagones {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+    
