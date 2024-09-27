@@ -1,0 +1,113 @@
+.results {
+    font-family: "Source Code Pro", monospace;
+    background-image: url(../../Downloads/d1597894d79386c83b9b/images/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 6em;
+}
+
+.result {
+    text-align: center;
+    color: white;
+    padding-top: 5em;
+}
+
+.result h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.result p {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.pentagones {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8em;
+    text-align: center;
+}
+
+.pentagone {
+    height: 0;
+    width: 100px;
+    border-top: 100px solid #ff6565;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: relative;
+    margin-left: 30px;
+}
+
+.pentagone:before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid #ff6565;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    bottom: 100px;
+    left: -50px;
+}
+
+.penta {
+    transform: translateY(-6rem);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.penta h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: -1em;
+}
+
+.penta p {
+    font-size: 0.6rem;
+    margin-top: 2em;
+}
+
+@media (max-width: 950px) {
+    .pentagones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pentagone {
+        margin-top: 2em;
+    }
+
+    .pentagones .three, .pentagones .four {
+        margin-top: 10em;
+    }
+}
+
+@media (max-width: 768px) {
+    .pentagones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pentagones .four, .pentagones .three {
+        margin-top: 10em;
+    }
+}
+
+@media (max-width: 408px) {
+    .pentagones {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pentagone {
+        margin-top: 3em;
+    }
+
+    .pentagones .two {
+        margin-top: 10em;
+    }
+}
