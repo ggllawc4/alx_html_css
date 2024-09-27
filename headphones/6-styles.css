@@ -97,7 +97,7 @@
     }
 }
 
-@media (max-width: 408px) {
+@media (max-width: 480px) {
     .pentagones {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
