@@ -53,4 +53,4 @@ Check out live demo to see how the design from Figma was implemented.
 
 ---
 
-[https:ggllawc4.github.io/alx_html_css/headphones/4-index.html](https:ggllawc4.github.io/alx_html_css/headphones/4-index.html)
+[https://ggllawc4.github.io/alx_html_css/headphones/4-index.html](https://ggllawc4.github.io/alx_html_css/headphones/4-index.html)
