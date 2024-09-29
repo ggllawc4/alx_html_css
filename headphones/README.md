@@ -49,4 +49,14 @@ The project switches to mobile view when the screen width is `480px` or less. Th
 
 ## Live Demo
 
-- [Click here](https://ggllawc4.github.io/alx_html_css/headphones/4-index.html)
+Below shows live demonstrations of the different sections that was been requested.
+
+---
+
+- [Fist HTML and CSS with header](https://ggllawc4.github.io/alx_html_css/headphones/0-index.html)
+- [Section on What We Do](https://ggllawc4.github.io/alx_html_css/headphones/1-index.html)
+- [Section on Our Result](https://ggllawc4.github.io/alx_html_css/headphones/2-index.html)
+- [Section on Contact Us](https://ggllawc4.github.io/alx_html_css/headphones/3-index.html)
+- [Footer showing full website](https://ggllawc4.github.io/alx_html_css/headphones/4-index.html)
+- [Created a Pentagon with HTML and CSS](https://ggllawc4.github.io/alx_html_css/headphones/6-index.html)
+- [Animated What We Do and Our Result](https://ggllawc4.github.io/alx_html_css/headphones/7-index.html)
